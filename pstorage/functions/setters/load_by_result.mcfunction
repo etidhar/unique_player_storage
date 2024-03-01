@@ -1,4 +1,4 @@
-$data modify storage pstorage:stats changes.change merge value {dir:"$(dir)",command:"$(command)",parent:"$(parent)",scale:"$(scale)"}
+$data modify storage pstorage:stats changes.change merge value {dir:"$(dir)",command:"$(command)",parent:"$(parent)",scale:"$(scale)",data_type:"$(data_type)"}
 execute as @s at @s store result storage pstorage:stats changes.change.uuid0 int 1 run data get entity @s UUID[0]
 execute as @s at @s store result storage pstorage:stats changes.change.uuid1 int 1 run data get entity @s UUID[1]
 execute as @s at @s store result storage pstorage:stats changes.change.uuid2 int 1 run data get entity @s UUID[2]
