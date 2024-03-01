@@ -1,4 +1,4 @@
 # unique_player_storage
-**NOTE THE CREDITS IN THE DATAPACK SHALL NOT BE REMOVED**
+**NOTE THE CREDITS IN THE DATAPACK SHALL NOT BE REMOVED**\n
 Video explaining how to use the datapack, I recommend watching it:
 
