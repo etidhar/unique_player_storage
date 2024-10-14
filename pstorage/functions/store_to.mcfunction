@@ -1,4 +1,4 @@
-execute as @a unless score @s pstorage.timer = !current pstorage.timer run tellraw @a {"text": "unique player storage made by etidhar\nneed unique player storage? click here for the github!","clickEvent": {"action": "open_url","value": ""},"color": "green"}
+#execute as @a unless score @s pstorage.timer = !current pstorage.timer run tellraw @a {"text": "unique player storage made by etidhar\nneed unique player storage? click here for the github!","clickEvent": {"action": "open_url","value": ""},"color": "green"}
 execute as @a unless score @s pstorage.timer = !current pstorage.timer run scoreboard players operation @s pstorage.timer = !current pstorage.timer
 scoreboard players add !current pstorage.timer 1
 scoreboard players add @a pstorage.timer 1
